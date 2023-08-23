@@ -33,5 +33,8 @@ Summary:
     %c - rune;
     %s - string;
     %t - bool;
+
 ~~~~~~~~~~~~~~~~
+# Homework:
+#### Description: make a procedure of quadratic equation __FULLY__
 
