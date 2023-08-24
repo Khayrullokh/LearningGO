@@ -1,0 +1,46 @@
+    var a float64 = 1.0
+	var b float64 = 1.0
+	var c float64 = 3.0
+
+	if a > b {
+		if a > c {
+			if b > c {
+				fmt.Println("a > b > c")
+			} else if c > b {
+				fmt.Println("a > c > b")
+			} else {
+				fmt.Println("a > b = c")
+			}
+		} else if c > a {
+			fmt.Println("c > a > b")
+		} else if c == a {
+			fmt.Println("c = a > b")
+		} else {
+			fmt.Println("b = c > a")
+		}
+	} else if a > c {
+		if b > a {
+			fmt.Println("b > a > c")
+		} else {
+			fmt.Println("b = a > c")
+		}
+	} else if b > c {
+		fmt.Println("b > c > a")
+	} else if b < c {
+		fmt.Println("c > b > a")
+	} else if b == c {
+		fmt.Println("b = c > a")
+	} else {
+		fmt.Println("a = b = c")
+	}
+
+
+    ----------------------------------------------------------------------------
+    
+	var a float64
+	var b float64
+	fmt.Print("Input floats a and b: ")
+	fmt.Scanln(&a, &b)
+	// var result float64 = a * b
+	fmt.Printf("\na = %f, b = %f\n", a, b)
+	fmt.Printf("a * b = %f\n", a * b)

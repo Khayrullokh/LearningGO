@@ -35,6 +35,25 @@ Summary:
     %t - bool;
 
 ~~~~~~~~~~~~~~~~
+
+## Lesson 3: If else ; fmt.Sprintf(), fmt.Scanln()
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- if else multiple equations up to 3 comparisons
+- fmt.Scanln() <Input by user> :
+     e.g. fmt.Scanln(&a, &b)
+- fmt.Sprintf() <Makes strings>
+     e.g.
+     var name string = "Khayrullo"
+     var age int = 18
+     var full_name string = fmt.Sprintf("I'm %s and I'm %d", name, age)
+     
+     
+- making different equations 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 # Homework:
-#### Description: make a procedure of quadratic equation __FULLY__
+#### Description: 
+    1. Make a 4 comparisons with if ... else ... statements
+
+
 
