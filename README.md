@@ -50,10 +50,27 @@ Summary:
      
 - making different equations 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## Lesson 4: For loop in go, functions 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- for i = 1; i < n; i++ = i + 1 {}  
+    e.g for i = 1; i < n; i++
+- sum_even or sum_odd 
+    e.g sum_even = sum_even + i 
+- functions can be added either after or before main function
+- func name() -> name cannot be repeated 
+- func sum(a int, b int) -> like declaring
+    e.g func sum(a int, b int) {  
+ 	fmt.Printf("%d + %d = %d ", a, b, a+b)
+    }
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Homework:
 #### Description: 
-    1. Make a 4 comparisons with if ... else ... statements
+    1. Fibonacci sequence until n number 
+    2. Quadratic equations into functions : a, b, c is given by user and should show the solution numbers as function arguments 
+    3. draw a triangle by using if... else ... and for 
+    its inside should be filled mostly
 
 
 
