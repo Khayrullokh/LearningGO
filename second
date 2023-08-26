@@ -1,0 +1,96 @@
+package main
+
+import "fmt"
+
+func main() {
+	var a float64
+	var b float64
+	var c float64
+	var d float64
+
+	fmt.Print("Input floats a , b, c, d: ")
+	fmt.Scanln(&a, &b, &c, &d)
+	fmt.Printf("\na = %f, b = %f, c = %f, d = %f\n", a, b, c, d)
+
+	if a > b && a > c && a > d {
+		if b > c && b > d {
+			if c > d {
+				fmt.Println("a > b > c > d")
+			} else {
+				fmt.Println("a > b > d > c")
+			}
+		} else if c > b && c > d {
+			if b > d {
+				fmt.Println("a > c > b > d")
+			} else {
+				fmt.Println("a > c > d > b")
+			}
+		} else if d > b && d > c {
+			if b > c {
+				fmt.Println("a > d > b > c")
+			} else {
+				fmt.Println("a > d > c > b")
+			}
+		}
+	} else if b > a && b > c && b > d {
+		if a > c && a > d {
+			if c > d {
+				fmt.Println("b > a > c > d")
+			} else {
+				fmt.Println("b > a > d > c")
+			}
+		} else if c > a && c > d {
+			if a > d {
+				fmt.Println("b > c > a > d")
+			} else {
+				fmt.Println("b > c > d > a")
+			}
+		} else if d > a && d > c {
+			if a > c {
+				fmt.Println("b > d > a > c")
+			} else {
+				fmt.Println("b > d > c > a")
+			}
+		}
+	} else if c > a && c > b && c > d {
+		if a > b && a > d {
+			if b > d {
+				fmt.Println("c > a > b > d")
+			} else {
+				fmt.Println("c > a > d > b")
+			}
+		} else if b > a && b > d {
+			if a > d {
+				fmt.Println("c > b > a > d")
+			} else {
+				fmt.Println("c > b > d > a")
+			}
+		} else if d > a && d > b {
+			if a > b {
+				fmt.Println("c > d > a > b")
+			} else {
+				fmt.Println("c > d > b > a")
+			}
+		}
+	} else if d > a && d > b && d > c {
+		if a > b && a > c {
+			if b > c {
+				fmt.Println("d > a > b > c")
+			} else {
+				fmt.Println("d > a > c > b")
+			}
+		} else if b > a && b > c {
+			if a > c {
+				fmt.Println("d > b > a > c")
+			} else {
+				fmt.Println("d > b > c > a")
+			}
+		} else if c > a && c > b {
+			if a > b {
+				fmt.Println("d > c > a > b")
+			} else {
+				fmt.Println("d > c > b > a")
+			}
+		}
+	}
+}
