@@ -55,3 +55,28 @@ func linear_function(x float64, k float64, b float64) {
 // func sum(a int, b int) {
 // 	fmt.Printf("%d + %d = %d ", a, b, a+b)
 // }
+  
+
+##Revision for loops 
+``go
+func main() {
+	var a int
+	var b int
+	fmt.Scanln(&a, &b)
+	fmt.Print("-------------------------------\n")
+	var storage int = b
+	var storage_a int = a
+
+	for a <= 10 {
+		for b <= 10 {
+			fmt.Printf("%d * %d = %d\n", a, b, a * b)
+			b = b + 1
+		}
+		b = storage
+		fmt.Println()
+		a = a + 1
+	}
+	a = storage_a
+	
+	fmt.Printf("a = %d, b = %d ", a, b)
+}  
