@@ -64,6 +64,18 @@ Summary:
     }
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## Lesson 5: For loops in go
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- the basic understanding of for loops 
+- how to make quadratic table 
+- how to use storages: __WITHOUT CHANGING__ the value it assigns
+- how to assign value if there is a , at the end of the function like this :
+    e.g : a = a + 1; a = a - 1
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 
 # Homework:
 #### Description: 
@@ -71,6 +83,7 @@ Summary:
     2. Quadratic equations into functions : a, b, c is given by user and should show the solution numbers as function arguments 
     3. draw a triangle by using if... else ... and for 
     its inside should be filled mostly
+    4. Hollow rectangular * 
 
 
 
