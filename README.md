@@ -75,13 +75,21 @@ Summary:
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+## Revision lesson 5: for loops 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+- how to make rectangular and hollow rectangular using if ... else
+  e.g i == 0 || i == a - 1
+- how to make square : functions are the same as for retangular
+- how to make hollow rectangular with one for loop 
+- use i in 2 situations
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 # Homework:
 #### Description: 
     1. Fibonacci sequence until n number 
     2. Quadratic equations into functions : a, b, c is given by user and should show the solution numbers as function arguments 
-    3. draw a triangle by using if... else ... and for 
+    3. __draw a triangle__ by using if... else ... and for 
     its inside should be filled mostly
     4. Hollow rectangular * 
 
